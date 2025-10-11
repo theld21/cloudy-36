@@ -1,0 +1,11 @@
+file_format: "1"
+id: ldt21
+name: ldt21
+type: shield
+url: https://github.com/theld21/3dpcorne
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - ldt21_left
+  - ldt21_right

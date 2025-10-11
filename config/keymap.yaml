@@ -1,0 +1,168 @@
+# FILL IN below field with a value like {qmk_keyboard: ferris/sweep}
+# or {ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 2}}
+# see https://github.com/caksoylar/keymap-drawer/blob/main/KEYMAP_SPEC.md#layout
+layout:
+  ortho_layout:
+    split: true
+    rows: 3
+    columns: 5
+    thumbs: 3
+layers:
+  default:
+    - Q
+    - W
+    - F
+    - P
+    - B
+    - J
+    - L
+    - U
+    - Y
+    - "'"
+    - { t: A, h: WIN }
+    - { t: R, h: ALT }
+    - { t: S, h: CTRL }
+    - { t: T, h: SHIFT }
+    - G
+    - M
+    - { t: N, h: SHIFT }
+    - { t: E, h: CTRL }
+    - { t: I, h: ALT }
+    - { t: O, h: WIN }
+    - Z
+    - X
+    - C
+    - D
+    - V
+    - K
+    - H
+    - { t: "," }
+    - { t: "." }
+    - { t: ";" }
+    - ESC
+    - { t: SPACE, h: NAV }
+    - TAB
+    - RET
+    - { t: BSPC, h: NUM, s: DEL }
+    - { t: SHIFT, h: sticky, s: Caps Word }
+  nav:
+    -
+    -
+    -
+    -
+    -
+    - PG ↑
+    - HOME
+    - ↑
+    - END
+    - INS
+    - { t: WIN, h: sticky }
+    - { t: ALT, h: sticky }
+    - { t: CTRL, h: sticky }
+    - { t: SHIFT, h: sticky }
+    -
+    - PG ↓
+    - ←
+    - ↓
+    - →
+    - DEL
+    -
+    -
+    -
+    -
+    -
+    -
+    - CUT
+    - COPY
+    - PASTE
+    -
+    - { type: held }
+    -
+    -
+    -
+    -
+    -
+  num:
+    - ESC
+    - 7
+    - 8
+    - 9
+    - "*"
+    -
+    -
+    -
+    -
+    -
+    - TAB
+    - 4
+    - 5
+    - 6
+    - +
+    -
+    - { t: SHIFT, h: sticky }
+    - { t: CTRL, h: sticky }
+    - { t: ALT, h: sticky }
+    - { t: WIN, h: sticky }
+    - RET
+    - 1
+    - 2
+    - 3
+    - /
+    -
+    -
+    -
+    -
+    -
+    - "."
+    - 0
+    - "-"
+    -
+    - { type: held }
+    -
+  german:
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    - Ü
+    -
+    -
+    - Ä
+    -
+    - ß
+    -
+    -
+    -
+    -
+    - €
+    -
+    - Ö
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+combos:
+  - p: [22, 21]
+    k: COPY
+    l: [default, nav, num, german]
+  - p: [23, 22]
+    k: PASTE
+    l: [default, nav, num, german]
+  - p: [7, 8]
+    k: SLEEP
+    l: [nav]
