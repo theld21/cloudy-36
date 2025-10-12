@@ -3,3 +3,5 @@ include:
     shield: ldt21_left
   - board: nice_nano_v2
     shield: ldt21_right
+  - board: nice_nano_v2
+    shield: settings_reset
