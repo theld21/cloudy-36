@@ -17,231 +17,13 @@
         compatible = "zmk,combos";
 
         // Thumb combos
-
-        combo_enter {
-            bindings = <&kp ENTER>;
-            key-positions = <31 30>;
-        };
-
-        combo_space {
-            bindings = <&kp SPACE>;
-            key-positions = <32 31>;
-        };
-
-        combo_del {
-            bindings = <&kp DELETE>;
-            key-positions = <30 31 32>;
-        };
-
         // Brackets - Ngoặc vuông []
-
-        combo_lbkt {
-            bindings = <&kp LBKT>;
-            key-positions = <6 15>;
-            layers = <0 1>;
-        };
-
-        combo_rbkt {
-            bindings = <&kp RBKT>;
-            key-positions = <6 16>;
-            layers = <0 1>;
-        };
-
         // Braces - Ngoặc nhọn {}
-
-        combo_lbrc {
-            bindings = <&kp LBRC>;
-            key-positions = <7 16>;
-            layers = <0 1>;
-        };
-
-        combo_rbrc {
-            bindings = <&kp RBRC>;
-            key-positions = <17 8>;
-            layers = <0 1>;
-        };
-
         // Parentheses - Ngoặc tròn ()
-
-        combo_lpar {
-            bindings = <&kp LPAR>;
-            key-positions = <17 26>;
-            layers = <0 1>;
-        };
-
-        combo_rpar {
-            bindings = <&kp RPAR>;
-            key-positions = <18 27>;
-            layers = <0 1>;
-        };
-
         // Special chars
-
-        combo_grave {
-            bindings = <&kp GRAVE>;
-            key-positions = <5 15>;
-            layers = <0 1>;
-        };
-
-        combo_tilde {
-            bindings = <&kp TILDE>;
-            key-positions = <5 6>;
-            layers = <0 1>;
-        };
-
-        combo_plus {
-            bindings = <&kp PLUS>;
-            key-positions = <7 6>;
-            layers = <0 1>;
-        };
-
-        combo_minus {
-            bindings = <&kp MINUS>;
-            key-positions = <16 17>;
-            layers = <0 1>;
-        };
-
-        combo_under {
-            bindings = <&kp UNDER>;
-            key-positions = <27 26>;
-            layers = <0 1>;
-        };
-
-        combo_equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <17 18>;
-            layers = <0 1>;
-        };
-
-        combo_excl {
-            bindings = <&kp EXCL>;
-            key-positions = <14 4>;
-        };
-
-        combo_pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <3 13>;
-        };
-
-        combo_dllr {
-            bindings = <&kp DLLR>;
-            key-positions = <2 13>;
-        };
-
-        combo_prcnt {
-            bindings = <&kp PRCNT>;
-            key-positions = <3 12>;
-        };
-
-        combo_star {
-            bindings = <&kp STAR>;
-            key-positions = <3 2>;
-        };
-
-        combo_amps {
-            bindings = <&kp AMPS>;
-            key-positions = <13 12>;
-        };
-
-        combo_hash {
-            bindings = <&kp HASH>;
-            key-positions = <4 13>;
-        };
-
-        combo_bslh {
-            bindings = <&kp BSLH>;
-            key-positions = <3 14>;
-        };
-
-        combo_caret {
-            bindings = <&kp CARET>;
-            key-positions = <3 4>;
-        };
-
-        combo_at {
-            bindings = <&kp AT>;
-            key-positions = <14 13>;
-        };
-
         // Word navigation - Windows (Layer 0)
-
-        combo_wbksp {
-            bindings = <&kp LC(BSPC)>;
-            key-positions = <33 9>;
-            layers = <0>;
-        };
-
-        combo_wleft {
-            bindings = <&kp LC(LEFT)>;
-            key-positions = <33 16>;
-            layers = <0>;
-        };
-
-        combo_wdown {
-            bindings = <&kp LC(DOWN)>;
-            key-positions = <33 17>;
-            layers = <0>;
-        };
-
-        combo_wright {
-            bindings = <&kp LC(RIGHT)>;
-            key-positions = <33 18>;
-            layers = <0>;
-        };
-
-        combo_wup {
-            bindings = <&kp LC(UP)>;
-            key-positions = <33 7>;
-            layers = <0>;
-        };
-
         // Word navigation - Mac (Layer 1)
-
-        combo_wbksp_mac {
-            bindings = <&kp LG(BSPC)>;
-            key-positions = <33 9>;
-            layers = <1>;
-        };
-
-        combo_wleft_mac {
-            bindings = <&kp LG(LEFT)>;
-            key-positions = <33 16>;
-            layers = <1>;
-        };
-
-        combo_wdown_mac {
-            bindings = <&kp LG(DOWN)>;
-            key-positions = <33 17>;
-            layers = <1>;
-        };
-
-        combo_wup_mac {
-            bindings = <&kp LG(UP)>;
-            key-positions = <33 7>;
-            layers = <1>;
-        };
-
         // Arrow keys
-
-        combo_left {
-            bindings = <&kp LEFT>;
-            key-positions = <34 16>;
-        };
-
-        combo_right {
-            bindings = <&kp RIGHT>;
-            key-positions = <34 18>;
-        };
-
-        combo_up {
-            bindings = <&kp UP>;
-            key-positions = <34 7>;
-        };
-
-        combo_down {
-            bindings = <&kp DOWN>;
-            key-positions = <34 17>;
-        };
 
         tab {
             bindings = <&kp TAB>;
@@ -253,56 +35,51 @@
             key-positions = <0 1>;
         };
 
-        backspace {
+        Backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <8 9>;
-        };
-
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <18 19>;
-        };
-
-        combo_wright_mac {
-            bindings = <&kp RG(RIGHT)>;
-            key-positions = <33 18>;
-            layers = <1>;
         };
     };
 
     keymap {
         compatible = "zmk,keymap";
 
-        ldt21_layer {
+        Main {
             bindings = <
-&kp Q             &kp W  &kp E         &kp R         &kp T      &kp Y        &kp U      &kp I       &kp O    &kp P
-&kp A             &kp S  &kp D         &kp F         &kp G      &kp H        &kp J      &kp K       &kp L    &kp SEMI
-&mt LEFT_SHIFT Z  &kp X  &kp C         &kp V         &kp B      &kp N        &kp M      &kp COMMA   &kp DOT  &kp FSLH
-                         &kp LEFT_ALT  &kp LEFT_WIN  &kp LCTRL  &lt 2 SPACE  &kp ENTER  &kp ESCAPE
+&kp Q           &kp W           &kp E             &kp R               &kp T      &kp Y      &kp U        &kp I              &kp O            &kp P
+&mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_CONTROL F  &kp G      &kp H      &mt RCTRL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON
+&kp Z           &kp X           &kp C             &kp V               &kp B      &kp N      &kp M        &kp COMMA          &kp DOT          &kp FSLH
+                                &kp TAB           &mo 1               &kp SPACE  &kp ENTER  &mo 2        &kp BSPC
             >;
 
             label = "LDT";
         };
 
-        mac_layer {
-            label = "LDT_";
+        Numb_Arrow {
             bindings = <
-&kp Q             &kp W  &kp E      &kp R         &kp T         &kp Y        &kp U      &kp I       &kp O    &kp P
-&kp A             &kp S  &kp D      &kp F         &kp G         &kp H        &kp J      &kp K       &kp L    &kp SEMI
-&mt LEFT_SHIFT Z  &kp X  &kp C      &kp V         &kp B         &kp N        &kp M      &kp COMMA   &kp DOT  &kp FSLH
-                         &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 2 SPACE  &kp ENTER  &kp ESCAPE
+&kp GRAVE  &kp HOME  &kp UP    &kp END    &kp PAGE_UP    &kp N7  &kp N8  &kp N9   &kp MINUS  &kp EQUAL
+&trans     &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &kp N4  &kp N5  &kp N6   &kp SQT    &kp NON_US_BACKSLASH
+&trans     &trans    &trans    &trans     &trans         &kp N1  &kp N2  &kp N3   &kp N0     &trans
+                     &kp CAPS  &trans     &trans         &trans  &mo 3   &kp DEL
             >;
         };
 
-        number_layer {
+        F_Row {
             bindings = <
-&to 0   &to 1   &trans      &trans    &trans     &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSPACE
-&trans  &trans  &trans      &trans    &trans     &kp N0     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ENTER
-&trans  &trans  &bt BT_CLR  &trans    &trans     &trans     &kp N7        &kp N8        &kp N9        &kp DELETE
-                &kp LALT    &kp LWIN  &kp LCTRL  &kp SPACE  &kp ENTER     &kp ESCAPE
+&kp F1  &kp F2   &kp F3   &kp F4   &kp LPAR          &kp RIGHT_PARENTHESIS  &trans  &trans  &trans  &trans
+&kp F5  &kp F6   &kp F7   &kp F8   &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &trans  &trans  &trans  &trans
+&kp F9  &kp F10  &kp F11  &kp F12  &trans            &trans                 &trans  &trans  &trans  &trans
+                 &trans   &mo 3    &trans            &trans                 &trans  &trans
             >;
+        };
 
-            label = "Number";
+        Config {
+            bindings = <
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
+&studio_unlock  &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans        &trans        &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
