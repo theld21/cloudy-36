@@ -11,17 +11,17 @@ layers:
   - I
   - O
   - P
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: LEFT GUI}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT SHIFT}
+  - {t: F, h: LEFT CONTROL}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
-  - {t: Z, h: LEFT SHIFT}
+  - {t: J, h: RCTRL}
+  - {t: K, h: RIGHT SHIFT}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: RIGHT GUI}
+  - Z
   - X
   - C
   - V
@@ -31,52 +31,34 @@ layers:
   - ','
   - .
   - /
-  - LEFT ALT
-  - LEFT WIN
-  - LCTRL
-  - {t: SPACE, h: Number}
+  - TAB
+  - Numb_Arrow
+  - SPACE
   - ENTER
-  - ESCAPE
-  LDT_:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - {t: Z, h: LEFT SHIFT}
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - LCTRL
-  - LEFT ALT
-  - LEFT WIN
-  - {t: SPACE, h: Number}
-  - ENTER
-  - ESCAPE
-  Number:
-  - {t: LDT, h: toggle}
-  - {t: LDT_, h: toggle}
+  - F_Row
+  - BSPC
+  Numb_Arrow:
+  - '`'
+  - HOME
+  - UP
+  - END
+  - PAGE UP
+  - '7'
+  - '8'
+  - '9'
+  - '-'
+  - '='
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - PAGE DOWN
+  - '4'
+  - '5'
+  - '6'
+  - ''''
+  - \
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -84,139 +66,92 @@ layers:
   - '1'
   - '2'
   - '3'
-  - BACKSPACE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '0'
-  - '4'
-  - '5'
-  - '6'
-  - ENTER
+  - {t: ▽, type: trans}
+  - CAPS
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Config
+  - DEL
+  F_Row:
+  - F1
+  - F2
+  - F3
+  - F4
+  - (
+  - )
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F5
+  - F6
+  - F7
+  - F8
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Config
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  Config:
   - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
-  - DELETE
-  - LALT
-  - LWIN
-  - LCTRL
-  - {t: SPACE, type: held}
-  - ENTER
-  - ESCAPE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&studio_unlock'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
 combos:
-- p: [31, 30]
-  k: ENTER
-- p: [32, 31]
-  k: SPACE
-- p: [30, 31, 32]
-  k: DELETE
-- p: [6, 15]
-  k: '['
-  l: [LDT, LDT_]
-- p: [6, 16]
-  k: ']'
-  l: [LDT, LDT_]
-- p: [7, 16]
-  k: '{'
-  l: [LDT, LDT_]
-- p: [17, 8]
-  k: '}'
-  l: [LDT, LDT_]
-- p: [17, 26]
-  k: (
-  l: [LDT, LDT_]
-- p: [18, 27]
-  k: )
-  l: [LDT, LDT_]
-- p: [5, 15]
-  k: '`'
-  l: [LDT, LDT_]
-- p: [5, 6]
-  k: '~'
-  l: [LDT, LDT_]
-- p: [7, 6]
-  k: +
-  l: [LDT, LDT_]
-- p: [16, 17]
-  k: '-'
-  l: [LDT, LDT_]
-- p: [27, 26]
-  k: _
-  l: [LDT, LDT_]
-- p: [17, 18]
-  k: '='
-  l: [LDT, LDT_]
-- p: [14, 4]
-  k: '!'
-- p: [3, 13]
-  k: '|'
-- p: [2, 13]
-  k: $
-- p: [3, 12]
-  k: '%'
-- p: [3, 2]
-  k: '*'
-- p: [13, 12]
-  k: '&'
-- p: [4, 13]
-  k: '#'
-- p: [3, 14]
-  k: \
-- p: [3, 4]
-  k: ^
-- p: [14, 13]
-  k: '@'
-- p: [33, 9]
-  k: Ctl+BSPC
-  l: [LDT]
-- p: [33, 16]
-  k: Ctl+LEFT
-  l: [LDT]
-- p: [33, 17]
-  k: Ctl+DOWN
-  l: [LDT]
-- p: [33, 18]
-  k: Ctl+RIGHT
-  l: [LDT]
-- p: [33, 7]
-  k: Ctl+UP
-  l: [LDT]
-- p: [33, 9]
-  k: Gui+BSPC
-  l: [LDT_]
-- p: [33, 16]
-  k: Gui+LEFT
-  l: [LDT_]
-- p: [33, 17]
-  k: Gui+DOWN
-  l: [LDT_]
-- p: [33, 7]
-  k: Gui+UP
-  l: [LDT_]
-- p: [34, 16]
-  k: LEFT
-- p: [34, 18]
-  k: RIGHT
-- p: [34, 7]
-  k: UP
-- p: [34, 17]
-  k: DOWN
 - p: [10, 11]
   k: TAB
 - p: [0, 1]
   k: ESCAPE
 - p: [8, 9]
   k: BACKSPACE
-- p: [18, 19]
-  k: ENTER
-- p: [33, 18]
-  k: Gui+RIGHT
-  l: [LDT_]
