@@ -37,13 +37,13 @@
 
         combo_lbkt {
             bindings = <&kp LBKT>;
-            key-positions = <6 15>;
+            key-positions = <6 16>;
             layers = <0 1>;
         };
 
         combo_rbkt {
             bindings = <&kp RBKT>;
-            key-positions = <6 16>;
+            key-positions = <7 17>;
             layers = <0 1>;
         };
 
@@ -79,7 +79,7 @@
 
         combo_grave {
             bindings = <&kp GRAVE>;
-            key-positions = <5 15>;
+            key-positions = <0 10>;
             layers = <0 1>;
         };
 
@@ -198,25 +198,25 @@
         // Word navigation - Mac (Layer 1)
 
         combo_wbksp_mac {
-            bindings = <&kp LG(BSPC)>;
+            bindings = <&kp LA(BSPC)>;
             key-positions = <33 9>;
             layers = <1>;
         };
 
         combo_wleft_mac {
-            bindings = <&kp LG(LEFT)>;
+            bindings = <&kp LA(LEFT)>;
             key-positions = <33 16>;
             layers = <1>;
         };
 
         combo_wdown_mac {
-            bindings = <&kp LG(DOWN)>;
+            bindings = <&kp LA(DOWN)>;
             key-positions = <33 17>;
             layers = <1>;
         };
 
         combo_wup_mac {
-            bindings = <&kp LG(UP)>;
+            bindings = <&kp LA(UP)>;
             key-positions = <33 7>;
             layers = <1>;
         };
@@ -264,9 +264,19 @@
         };
 
         combo_wright_mac {
-            bindings = <&kp RG(RIGHT)>;
+            bindings = <&kp LA(RIGHT)>;
             key-positions = <33 18>;
             layers = <1>;
+        };
+
+        combo_sqt {
+            bindings = <&kp SQT>;
+            key-positions = <5 15>;
+        };
+
+        combo_dbsql {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <6 15>;
         };
     };
 
@@ -296,10 +306,10 @@
 
         number_layer {
             bindings = <
-&to 0   &to 1   &trans      &trans    &trans     &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSPACE
-&trans  &trans  &trans      &trans    &trans     &kp N0     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ENTER
-&trans  &trans  &bt BT_CLR  &trans    &trans     &trans     &kp N7        &kp N8        &kp N9        &kp DELETE
-                &kp LALT    &kp LWIN  &kp LCTRL  &kp SPACE  &kp ENTER     &kp ESCAPE
+&to 0         &to 1         &studio_unlock  &kp F2        &kp F12     &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSPACE
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_CLR  &kp N0  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ENTER
+&trans        &trans        &trans          &trans        &trans      &trans  &kp N7        &kp N8        &kp N9        &kp DELETE
+                            &kp LALT        &kp LWIN      &kp LCTRL   &trans  &kp ENTER     &kp ESCAPE
             >;
 
             label = "Number";
