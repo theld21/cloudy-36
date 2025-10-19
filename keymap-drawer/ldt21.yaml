@@ -77,19 +77,19 @@ layers:
   Number:
   - {t: LDT, h: toggle}
   - {t: LDT_, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
+  - F2
+  - F12
   - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
   - BACKSPACE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - BT CLR
   - '0'
   - '4'
   - '5'
@@ -97,7 +97,7 @@ layers:
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -108,7 +108,7 @@ layers:
   - LALT
   - LWIN
   - LCTRL
-  - {t: SPACE, type: held}
+  - {type: held}
   - ENTER
   - ESCAPE
 combos:
@@ -118,10 +118,10 @@ combos:
   k: SPACE
 - p: [30, 31, 32]
   k: DELETE
-- p: [6, 15]
+- p: [6, 16]
   k: '['
   l: [LDT, LDT_]
-- p: [6, 16]
+- p: [7, 17]
   k: ']'
   l: [LDT, LDT_]
 - p: [7, 16]
@@ -136,7 +136,7 @@ combos:
 - p: [18, 27]
   k: )
   l: [LDT, LDT_]
-- p: [5, 15]
+- p: [0, 10]
   k: '`'
   l: [LDT, LDT_]
 - p: [5, 6]
@@ -190,16 +190,16 @@ combos:
   k: Ctl+UP
   l: [LDT]
 - p: [33, 9]
-  k: Gui+BSPC
+  k: Alt+BSPC
   l: [LDT_]
 - p: [33, 16]
-  k: Gui+LEFT
+  k: Alt+LEFT
   l: [LDT_]
 - p: [33, 17]
-  k: Gui+DOWN
+  k: Alt+DOWN
   l: [LDT_]
 - p: [33, 7]
-  k: Gui+UP
+  k: Alt+UP
   l: [LDT_]
 - p: [34, 16]
   k: LEFT
@@ -218,5 +218,9 @@ combos:
 - p: [18, 19]
   k: ENTER
 - p: [33, 18]
-  k: Gui+RIGHT
+  k: Alt+RIGHT
   l: [LDT_]
+- p: [5, 15]
+  k: ''''
+- p: [6, 15]
+  k: '"'
