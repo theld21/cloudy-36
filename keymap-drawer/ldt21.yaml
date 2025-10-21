@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LEFT GUI}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT SHIFT}
-  - {t: F, h: LCTRL}
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: LCTRL}
-  - {t: K, h: LEFT SHIFT}
-  - {t: L, h: LEFT ALT}
-  - {t: ;, h: LEFT WIN}
+  - J
+  - K
+  - L
+  - ;
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -48,16 +48,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LCTRL}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT SHIFT}
-  - {t: F, h: LEFT GUI}
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: LEFT GUI}
-  - {t: K, h: LEFT SHIFT}
-  - {t: L, h: LEFT ALT}
-  - {t: ;, h: LCTRL}
+  - J
+  - K
+  - L
+  - ;
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
