@@ -286,7 +286,7 @@
         ldt21_layer {
             bindings = <
 &kp Q             &kp W           &kp E             &kp R         &kp T      &kp Y        &kp U        &kp I             &kp O           &kp P
-&mt A LEFT_WIN    &mt S LEFT_ALT  &mt LEFT_SHIFT D  &mt LCTRL F   &kp G      &kp H        &mt LCTRL J  &mt LEFT_SHIFT K  &mt LEFT_ALT L  &mt LEFT_WIN SEMICOLON
+&mt LEFT_GUI A    &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LCTRL F   &kp G      &kp H        &mt LCTRL J  &mt LEFT_SHIFT K  &mt LEFT_ALT L  &mt LEFT_WIN SEMICOLON
 &mt LEFT_SHIFT Z  &kp X           &kp C             &kp V         &kp B      &kp N        &kp M        &kp COMMA         &kp DOT         &kp FSLH
                                   &kp LEFT_ALT      &kp LEFT_WIN  &kp LCTRL  &lt 2 SPACE  &kp ENTER    &kp ESCAPE
             >;
