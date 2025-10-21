@@ -11,8 +11,8 @@ layers:
   - I
   - O
   - P
-  - {t: LEFT WIN, h: A}
-  - {t: LEFT ALT, h: S}
+  - {t: A, h: LEFT GUI}
+  - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT SHIFT}
   - {t: F, h: LCTRL}
   - G
