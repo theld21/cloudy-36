@@ -287,7 +287,7 @@
             bindings = <
 &kp Q             &kp W  &kp E         &kp R         &kp T      &kp Y        &kp U      &kp I       &kp O    &kp P
 &kp A             &kp S  &kp D         &kp F         &kp G      &kp H        &kp J      &kp K       &kp L    &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X  &kp C         &kp V         &kp B      &kp N        &kp M      &kp COMMA   &kp DOT  &kp FSLH
+&mt LEFT_SHIFT Z  &kp X  &kp C         &kp V         &kp B      &kp N        &kp M      &kp COMMA   &kp DOT  &mt LEFT_SHIFT SLASH
                          &kp LEFT_ALT  &kp LEFT_WIN  &kp LCTRL  &lt 2 SPACE  &kp ENTER  &kp ESCAPE
             >;
 
@@ -299,7 +299,7 @@
             bindings = <
 &kp Q             &kp W  &kp E      &kp R         &kp T         &kp Y        &kp U      &kp I       &kp O    &kp P
 &kp A             &kp S  &kp D      &kp F         &kp G         &kp H        &kp J      &kp K       &kp L    &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X  &kp C      &kp V         &kp B         &kp N        &kp M      &kp COMMA   &kp DOT  &kp FSLH
+&mt LEFT_SHIFT Z  &kp X  &kp C      &kp V         &kp B         &kp N        &kp M      &kp COMMA   &kp DOT  &mt LEFT_SHIFT SLASH
                          &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 2 SPACE  &kp ENTER  &kp ESCAPE
             >;
         };
