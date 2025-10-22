@@ -30,7 +30,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: LEFT SHIFT}
   - LEFT ALT
   - LEFT WIN
   - LCTRL
@@ -67,7 +67,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: LEFT SHIFT}
   - LCTRL
   - LEFT ALT
   - LEFT WIN
