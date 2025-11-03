@@ -1,0 +1,21 @@
+[35mboards/shields/ldt21/Kconfig.defconfig[m[36m:[m[32m1[m[36m:[mif SHIELD_[1;31mLDT21[m_LEFT
+[35mboards/shields/ldt21/Kconfig.defconfig[m[36m:[m[32m4[m[36m:[m    default "[1;31mldt21[m"
+[35mboards/shields/ldt21/Kconfig.defconfig[m[36m:[m[32m11[m[36m:[mif SHIELD_[1;31mLDT21[m_LEFT || SHIELD_[1;31mLDT21[m_RIGHT
+[35mboards/shields/ldt21/Kconfig.shield[m[36m:[m[32m1[m[36m:[mconfig SHIELD_[1;31mLDT21[m_LEFT
+[35mboards/shields/ldt21/Kconfig.shield[m[36m:[m[32m2[m[36m:[m    def_bool $(shields_list_contains,[1;31mldt21[m_left)
+[35mboards/shields/ldt21/Kconfig.shield[m[36m:[m[32m4[m[36m:[mconfig SHIELD_[1;31mLDT21[m_RIGHT
+[35mboards/shields/ldt21/Kconfig.shield[m[36m:[m[32m5[m[36m:[m    def_bool $(shields_list_contains,[1;31mldt21[m_right)
+[35mboards/shields/ldt21/ldt21.zmk.yml[m[36m:[m[32m2[m[36m:[mid: [1;31mldt21[m
+[35mboards/shields/ldt21/ldt21.zmk.yml[m[36m:[m[32m3[m[36m:[mname: [1;31mldt21[m
+[35mboards/shields/ldt21/ldt21.zmk.yml[m[36m:[m[32m10[m[36m:[m  - [1;31mldt21[m_left
+[35mboards/shields/ldt21/ldt21.zmk.yml[m[36m:[m[32m11[m[36m:[m  - [1;31mldt21[m_right
+[35mboards/shields/ldt21/ldt21_left.overlay[m[36m:[m[32m1[m[36m:[m#include "[1;31mldt21[m.dtsi"
+[35mboards/shields/ldt21/ldt21_right.overlay[m[36m:[m[32m1[m[36m:[m#include "[1;31mldt21[m.dtsi"
+[35mbuild.yaml[m[36m:[m[32m3[m[36m:[m    shield: [1;31mldt21[m_left
+[35mbuild.yaml[m[36m:[m[32m5[m[36m:[m    shield: [1;31mldt21[m_right
+[35mconfig/info.json[m[36m:[m[32m2[m[36m:[m  "id": "[1;31mldt21[m",
+[35mconfig/info.json[m[36m:[m[32m3[m[36m:[m  "name": "[1;31mLDT21[m",
+[35mconfig/ldt21.json[m[36m:[m[32m2[m[36m:[m  "id": "[1;31mldt21[m",
+[35mconfig/ldt21.json[m[36m:[m[32m3[m[36m:[m  "name": "[1;31mLDT21[m",
+[35mkeymap-drawer/ldt21.yaml[m[36m:[m[32m1[m[36m:[mlayout: {zmk_keyboard: [1;31mldt21[m}
+[35mreadme.md[m[36m:[m[32m7[m[36m:[m![Keymap](./keymap-drawer/[1;31mldt21[m.svg)

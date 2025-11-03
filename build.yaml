@@ -1,7 +1,8 @@
-include:
+﻿include:
   - board: nice_nano_v2
-    shield: ldt21_left
+    shield: Mew36_left
   - board: nice_nano_v2
-    shield: ldt21_right
+    shield: Mew36_right
   - board: nice_nano_v2
     shield: settings_reset
+

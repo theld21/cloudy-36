@@ -1,11 +1,12 @@
-file_format: "1"
-id: ldt21
-name: ldt21
+﻿file_format: "1"
+id: Mew36
+name: Mew36
 type: shield
 url: https://github.com/theld21/3dpcorne
 requires: [pro_micro]
 features:
   - keys
 siblings:
-  - ldt21_left
-  - ldt21_right
+  - Mew36_left
+  - Mew36_right
+

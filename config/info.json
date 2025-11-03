@@ -1,6 +1,6 @@
-{
-  "id": "ldt21",
-  "name": "LDT21",
+﻿{
+  "id": "MEW36",
+  "name": "MEW36",
   "layouts": {
     "default_transform": {
       "name": "default_transform",
@@ -53,4 +53,5 @@
   },
   "sensors": []
 }
+
 

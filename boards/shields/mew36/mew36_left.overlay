@@ -1,4 +1,4 @@
-#include "ldt21.dtsi"
+﻿#include "Mew36.dtsi"
 
 &kscan0 {
     col-gpios
@@ -9,3 +9,4 @@
         , <&pro_micro 6 GPIO_ACTIVE_HIGH>
         ;
 };
+

@@ -1,14 +1,14 @@
-if SHIELD_LDT21_LEFT
+﻿if SHIELD_MEW36_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "ldt21"
+    default "MEW36"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_LDT21_LEFT || SHIELD_LDT21_RIGHT
+if SHIELD_MEW36_LEFT || SHIELD_MEW36_RIGHT
 
     config ZMK_SPLIT
         default y
