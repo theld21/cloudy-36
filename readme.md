@@ -1,4 +1,4 @@
-# LDT21 Cosmos 36 Wireless
+# Mew36 Wireless
 
 ### ZMK Firmware
 [keymap editor](https://nickcoutsos.github.io/keymap-editor)
